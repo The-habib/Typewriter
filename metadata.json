@@ -1,0 +1,6 @@
+{
+  "name": "Precision Keybar Mechanism",
+  "description": "High-fidelity interactive 3D CAD reconstruction of a precision machined keybar, gimbal actuator, and helical spring linkage mechanism.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
