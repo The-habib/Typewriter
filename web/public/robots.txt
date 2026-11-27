@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://the-habib.github.io/Typewriter/sitemap.xml

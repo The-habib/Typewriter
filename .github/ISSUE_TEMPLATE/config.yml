@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Live 3D Showcase
+    url: https://the-habib.github.io/Typewriter/
+    about: Try the interactive 3D typewriter mechanism in your browser
+  - name: Security Vulnerability Report
+    url: https://github.com/The-habib/Typewriter/security/advisories/new
+    about: Please report security or privacy concerns privately

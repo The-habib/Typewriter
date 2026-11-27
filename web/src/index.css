@@ -1,0 +1,196 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #d7dbe4;
+    color: #0d1017;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #d7dbe4;
+    color: #0d1017;
+  }
+
+  .font-display {
+    font-family: 'Bricolage Grotesque', 'Plus Jakarta Sans', -apple-system, sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ==========================================================================
+   Handcrafted Typewriter Machined Geometric Silhouettes (CNC Chamfers & Tabs)
+   ========================================================================== */
+
+/* Asymmetric CNC-milled specimen plate: deep 32px top-right cut + 20px bottom-left cut */
+.chamfer-plate {
+  clip-path: polygon(
+    0 0,
+    calc(100% - 32px) 0,
+    100% 32px,
+    100% 100%,
+    20px 100%,
+    0 calc(100% - 20px)
+  );
+}
+
+/* Sculpted architectural card: crisp 22px diagonal top-right & bottom-left chamfers */
+.chamfer-card {
+  clip-path: polygon(
+    0 0,
+    calc(100% - 22px) 0,
+    100% 22px,
+    100% 100%,
+    16px 100%,
+    0 calc(100% - 16px)
+  );
+}
+
+/* Tactile machined button: 10px diagonal top-left & bottom-right key bevel */
+.chamfer-btn {
+  clip-path: polygon(
+    10px 0,
+    100% 0,
+    100% calc(100% - 10px),
+    calc(100% - 10px) 100%,
+    0 100%,
+    0 10px
+  );
+}
+
+/* Sculpted workbench console housing with angled top corners */
+.chamfer-console {
+  clip-path: polygon(
+    18px 0,
+    calc(100% - 18px) 0,
+    100% 18px,
+    100% 100%,
+    0 100%,
+    0 18px
+  );
+}
+
+/* Trapezoidal hood-latch handle sitting flush on the workbench spine */
+.chamfer-latch {
+  clip-path: polygon(
+    14px 0,
+    calc(100% - 14px) 0,
+    100% 100%,
+    0 100%
+  );
+}
+
+/* Stepped caliper value tab on the right of each spec bar */
+.chamfer-spec-tab {
+  clip-path: polygon(
+    14px 0,
+    100% 0,
+    100% 100%,
+    0 100%
+  );
+}
+
+/* Subtle architectural drafting hairlines for solid structural sections */
+.drafting-surface {
+  background-image:
+    linear-gradient(to right, rgba(13, 16, 23, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(13, 16, 23, 0.035) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Physical brushed-metal conic textures for the 4 interactive finish tokens */
+.metal-token-gunmetal {
+  background: conic-gradient(
+    from 210deg,
+    #363a44,
+    #585f6e,
+    #2e323b,
+    #666e7e,
+    #363a44
+  );
+}
+
+.metal-token-steel {
+  background: conic-gradient(
+    from 210deg,
+    #9ba3b0,
+    #dde2eb,
+    #8c95a3,
+    #e6eaf2,
+    #9ba3b0
+  );
+}
+
+.metal-token-obsidian {
+  background: conic-gradient(
+    from 210deg,
+    #1b1e25,
+    #343946,
+    #14171d,
+    #3d4352,
+    #1b1e25
+  );
+}
+
+.metal-token-brass {
+  background: conic-gradient(
+    from 210deg,
+    #9b7a40,
+    #d6b87c,
+    #866732,
+    #e0c48a,
+    #9b7a40
+  );
+}
+
+/* Precision engineered range slider tuned for dark anodized console */
+input[type='range'].cad-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type='range'].cad-slider::-webkit-slider-runnable-track {
+  height: 3px;
+  border-radius: 2px;
+  background: #394050;
+}
+
+input[type='range'].cad-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  margin-top: -5.5px;
+  border-radius: 50%;
+  background: #e6eaf2;
+  border: 2px solid #161922;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.55);
+  transition: transform 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+input[type='range'].cad-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.14);
+}
+
+input[type='range'].cad-slider:focus-visible {
+  outline: 2px solid #b51d29;
+  outline-offset: 4px;
+  border-radius: 4px;
+}

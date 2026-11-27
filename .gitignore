@@ -1,8 +1,37 @@
-node_modules/
-build/
-dist/
-coverage/
+# OS & Editors
 .DS_Store
+Thumbs.db
+*.swp
 *.log
-.env*
+.idea/
+.vscode/
+*.iml
+
+# Environment files
+.env
+.env.*
 !.env.example
+
+# Web (Vite / Node / Bun)
+web/node_modules/
+web/dist/
+web/build/
+web/coverage/
+
+# Flutter & Android
+app/.dart_tool/
+app/.flutter-plugins-dependencies
+app/.pub-cache/
+app/.pub/
+app/build/
+app/coverage/
+app/doc/api/
+app/.widget_preview/
+app/android/.gradle/
+app/android/local.properties
+app/android/captures/
+app/android/app/debug/
+app/android/app/profile/
+app/android/app/release/
+*.symbols
+*.map.json

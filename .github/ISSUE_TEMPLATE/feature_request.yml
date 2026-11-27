@@ -1,0 +1,28 @@
+name: Feature Request
+description: Suggest an improvement or new capability for Typewriter
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Target Area
+      options:
+        - Android Keyboard (app/)
+        - Companion App (app/)
+        - 3D Landing Page (web/)
+        - Both / General
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Describe the feature
+      description: What problem does it solve and how should it behave?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives or Notes
+      description: Any design references, layout sketches, or technical notes.

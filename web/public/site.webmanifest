@@ -1,0 +1,21 @@
+{
+  "name": "Typewriter — Mechanical Keyboard Studio",
+  "short_name": "Typewriter",
+  "description": "Open-source mechanical typewriter keyboard for Android (IME & Companion App) with an interactive Three.js 3D showcase.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#d7dbe4",
+  "theme_color": "#14171f",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

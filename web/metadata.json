@@ -1,0 +1,6 @@
+{
+  "name": "Typewriter — Mechanical Keyboard Studio",
+  "description": "Open-source mechanical typewriter keyboard for Android (Flutter + Kotlin InputMethodService) paired with a scroll-driven Three.js 3D CAD showcase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

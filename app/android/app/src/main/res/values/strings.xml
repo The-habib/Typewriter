@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Typewriter</string>
+    <string name="ime_service_label">Typewriter</string>
+    <string name="subtype_en_us">English (US)</string>
+</resources>
