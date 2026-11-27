@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "Interactive 3D showcase and landing page for Typewriter — Open-Source Mechanical Typewriter Keyboard for Android",
   "license": "MIT",
-  "homepage": "https://the-habib.github.io/Typewriter/",
+  "homepage": "https://typewriter-beta.vercel.app/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/The-habib/Typewriter.git",

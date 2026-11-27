@@ -1,6 +1,6 @@
 name: typewriter_keyboard
 description: "Typewriter — Mechanical Typewriter 3D Studio Edition: Open-Source Android Keyboard (IME) & Companion App"
-homepage: https://the-habib.github.io/Typewriter/
+homepage: https://typewriter-beta.vercel.app/
 repository: https://github.com/The-habib/Typewriter
 issue_tracker: https://github.com/The-habib/Typewriter/issues
 publish_to: 'none'

@@ -11,7 +11,8 @@
   </p>
 
   <p>
-    <a href="https://the-habib.github.io/Typewriter/">Live 3D Showcase</a> &bull;
+    <a href="https://typewriter-beta.vercel.app/">Live 3D Showcase (Vercel)</a> &bull;
+    <a href="https://the-habib.github.io/Typewriter/">GitHub Pages Mirror</a> &bull;
     <a href="https://github.com/The-habib/Typewriter/releases/latest">Download Android APK</a> &bull;
     <a href="#screenshots">Screenshots</a> &bull;
     <a href="#monorepo-structure">Monorepo</a> &bull;
@@ -20,6 +21,9 @@
   </p>
 
   <p>
+    <a href="https://typewriter-beta.vercel.app/">
+      <img src="https://img.shields.io/badge/Vercel-Live%203D%20Showcase-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Live on Vercel" />
+    </a>
     <a href="https://github.com/The-habib/Typewriter/actions/workflows/flutter-ci.yml">
       <img src="https://img.shields.io/github/actions/workflow/status/The-habib/Typewriter/flutter-ci.yml?branch=main&label=Android%20CI&style=for-the-badge&logo=flutter&logoColor=white&color=02569B" alt="Android CI" />
     </a>
